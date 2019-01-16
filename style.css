@@ -1,5 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
 
+    background-color: black;
+    
+}
+
+header {
     background-image: url("Images/noise.png");
     
+    height: 100px;
+    width: 100%;
+}
+
+#firstphoto {
+    background-image: url("Images/astro.jpg");
+    height: 100px;
+    width: 500%;
 }
