@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: url("Images/noise.png"); 
+    background-image: url("Images/noise.png");
+     
 
 
     
@@ -54,4 +55,17 @@ h1 {
 a:hover {
     color: #CCAC55;
     text-decoration: none;
+}
+
+.background {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+
+#selection {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
