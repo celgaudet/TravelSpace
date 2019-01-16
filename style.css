@@ -15,14 +15,6 @@ header {
     background-image: url("Images/noise.png");   
     height: 100px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-    
 }
 
 
