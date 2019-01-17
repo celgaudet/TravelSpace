@@ -72,6 +72,8 @@ a:hover {
     align-items: center;
     margin-top: 50px;
     flex-wrap: wrap;
+    position: relative;
+    text-align: center;
 }
 
 .background2 {
@@ -79,6 +81,7 @@ a:hover {
     width: 600px;
     background-color: black;
     margin-top: 50px;
+    
 }
 
 .activite {
@@ -102,3 +105,22 @@ a:hover {
      position: absolute;
      z-index: 2;
  }
+
+ .backgroundimg {
+     margin-top: 0;
+ }
+
+ .background3 :last-child {
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    border-block-end: black 20px;
+    
+ }
+
+/* .bandeautext {
+    z-index: 3;
+}
+    
+} */
