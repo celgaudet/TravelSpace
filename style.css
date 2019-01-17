@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: white;;   
-    height: 100px;
+    height: 60px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -31,7 +31,14 @@ header {
     height: 500px;
     object-fit: cover;
     object-position: 0 -50px;
+    
 }
+/* 
+.headertext {
+    background-color: #e0e0e0;
+    height: auto;
+    width: auto;
+} */
 
 
 a.headertext {
@@ -82,9 +89,36 @@ a:hover {
 
 .background2 {
     
-    height: 300px;
-    width: 601px;
+    height: 340px;
+    width: 600px;
     background-color: black;
     margin-top: 50px;
 
 }
+
+.activite {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.conteneur
+ {
+
+ }
+
+ .activiteimage {
+     position: absolute;
+     z-index: 1;
+     
+
+ }
+
+ .activitetext {
+     position: absolute;
+     z-index: 2;
+    
+
+    
+ }
