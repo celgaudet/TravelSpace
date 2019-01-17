@@ -119,8 +119,8 @@ a:hover {
     
  }
 
-/* .bandeautext {
-    z-index: 3;
+.colorBack {
+    background-color: rgba(117, 190, 218, 0.5);
+    width: 100%;
+    /* opacity: 0.5; */
 }
-    
-} */
