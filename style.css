@@ -94,14 +94,19 @@ a:hover {
     margin-top: 50px;
 
 }
+/* footer */
+
+
+
 /* css page destination */
 
 .photosdestination {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 250px;
     
+    font-size: 20px;
+    font-weight: bold;
 }
 .photomars {
     height: 550px; 
@@ -112,14 +117,50 @@ a:hover {
     height: 550px; 
     width: 700px;
 }
+.text  {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
 
 /* css page hebergement */
 
 .logementlune, .logementmars {
-    height: 250px; 
-    width: 400px; 
+    height: 350px; 
+    width: 600px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 0px;
+    
 }
+
+.hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+/* css page transport */
+
+.transport {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.transportmars, .transportlune {
+    border: 15px solid black;
+    margin-top: 150px;
+}  
