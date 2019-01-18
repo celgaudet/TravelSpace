@@ -147,12 +147,25 @@ a:hover {
     /* opacity: 0.5; */
 }
 
+/* css page destination */
+
+.photosdestination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    font-size: 20px;
+    font-weight: bold;
+   
 .bandeautext {
     font-size: 40px;
     padding: 0;
     margin: 0;
     
 }
+.photomars {
+    height: 550px; 
+    width: 700px;
+    border: 3px solid black;
 
 
 /* TEST TEST TEST TEST TEST TEST TEST */
@@ -177,6 +190,10 @@ nav {
     margin-left: auto;
     margin-right: auto;
         margin-top: 80px;
+.photolune {
+    height: 550px; 
+    width: 700px;
+    border: 3px solid black;
 }
 
 .right {float: right !important;}
@@ -221,4 +238,142 @@ p {
 
 footer {
     margin-bottom: 50px;
+}
+
+.text  {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 150px;
+    
+}
+.titre {
+    text-align: center;
+    margin-top: 100px;
+}
+.messageaccueil {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 0;
+
+}
+
+/* css page hebergement */
+
+.exemplehebergement {
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.logementlune, .logementmars {
+    height: 350px; 
+    width: 600px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 3px solid black;
+    
+}
+
+.hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    
+}
+
+/* css page transport */
+
+/* .exempletransport {
+    text-align: center;
+    margin-top: 200px; */
+
+.transport {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.transportmars, .transportlune {
+    border: 3px solid black;
+    margin-top: 150px;
+}  
+
+/* css page restauration */
+
+.exemplerestauration {
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.restaurationmars, .restaurationlune {
+    height: 350px; 
+    width: 600px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 3px solid black;
+    
+}
+
+.restauration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+/* css page equipement */
+
+.photoequipement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.combinaisonadulte {
+    height: 350px; 
+    width: 600px;
+    border: 3px solid black;
+}
+
+.combinaisonenfant {
+    height: 350px; 
+    width: 600px;
+    border: 3px solid black;
+}
+.text  {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 150px;
+    
+}
+.titre {
+    text-align: center;
+    margin-top: 100px;
+}
+.messageaccueil {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 0;
+
 }
