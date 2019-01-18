@@ -245,14 +245,11 @@ footer {
 }
 
 .logementlune, .logementmars {
-    height: 350px; 
-    width: 500px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 50px;
-    border: 3px solid black;
-    
+  
+     height: 340px;  
+     background-color: black;
+     justify-self: center;
+     
 }
 
 .hebergement {
@@ -384,24 +381,6 @@ footer {
 
 }
 
-#searchbar{
-    
-position:relative; width:1040px; height:auto;
-}
-
-/* 
-.formulaire{display:inline-block;}
-
-
-.formulaire .bouton       
-{ background-image: url(images/searchbar_button.png);background-repeat: no-repeat;width: 35px;height: 25px;padding: 0; 
-border-radius: 20%;
-}
-
-.logo-search {
-    display: block;
-
-} */
    /* css page formulaire réservation */
 
 form {
