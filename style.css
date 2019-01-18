@@ -240,7 +240,7 @@ footer {
 
 .logementlune, .logementmars {
     height: 350px; 
-    width: 600px; 
+    width: 500px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -262,9 +262,10 @@ footer {
 
 /* css page transport */
 
-/* .exempletransport {
+.exempletransport {
     text-align: center;
-    margin-top: 200px; */
+    margin-top: 200px;
+}
 
 .transport {
     display: flex;
@@ -292,7 +293,7 @@ footer {
 
 .restaurationmars, .restaurationlune {
     height: 350px; 
-    width: 600px; 
+    width: 500px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -378,6 +379,7 @@ footer {
     text-align: center;
     margin-top: 40px;
     padding-bottom: 0;
+    color: black;
 
 }
 
