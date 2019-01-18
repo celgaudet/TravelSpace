@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <title>Travelspace</title>
+</head>
+
+<body>
+
+
+
+    <header>
+        <a href="/Index.html" class="headertext" id="Accueil">Accueil</a>
+        <a href="/Destination/destination.html" class="headertext" id="Destination">Destination</a>
+        <a href="/Transport/transport.html" class="headertext" id="Transport">Transport</a>
+        <a href="#"><img src="/Images/TravelSpace.png" height="50px" width="auto" /></a>
+        <a href="/Hebergement/hebergement.html" class="headertext" id="Hebergement">Hébergement</a>
+        <a href="/Restauration/restauration.html" class="headertext" id="Restauration">Restauration</a>
+        <a href="/Equipement/equipement.html" class="headertext" id="Equipement">Equipement</a>
+    </header>
+
+
+
+    
+
+
+    <div class="formulaire">
+<h2 class="titreformulaire">Formulaire de réservation</h2>
+        
+        <form action="formulaire">
+            <label for="lastName">Nom :</label>
+            <input type="text" name="" id="lastName" placeholder="Saisissez votre nom" required autofocus>
+            </br>
+
+            <label for="firstName">Prénom :</label>
+            <input type="text" name="" id="firstName" placeholder="Saisissez votre prénom">
+            </br>
+
+            <label for="Age">Age :</label>
+            <input type="number" name="">
+
+            </br>
+
+            <label for="email">email :</label>
+            <input type="email" name="" id="email" required placeholder="Saisissez votre email">
+            </br>
+
+            <label for="Planète">Choisissez votre planète :</label>
+
+            <select id="planete">
+                <optgroup label="">
+                    <!-- <option>Choisissez la planète</option> -->
+                    <option>Mars</option>
+                    <option>Lune</option>
+                </optgroup>
+            </select>
+
+            </br>
+
+            <div><strong>Genre</strong> :
+
+                <label for="Male">Homme</label>
+                <input type="radio" name="gender" id="Male" required>
+                <label for="Female">Femme</label>
+                <input type="radio" name="gender" id="Femme">
+                <label for="Child">Enfant</label>
+                <input type="radio" name="gender" id="Enfant"></div>
+
+
+            </br>
+            <input type="submit" value="valider">
+        </form>
+    </div>
+
+</body>
+
+</html>
