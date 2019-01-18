@@ -240,29 +240,22 @@ footer {
 .exemplehebergement {
     text-align: center;
     margin-top: 200px;
+    font-family: "earthorbiter";
     
 }
 
 .logementlune, .logementmars {
-    height: 350px; 
-    width: 600px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 50px;
-    border: 3px solid black;
-    
+  
+     height: 340px;  
+     background-color: black;
+     justify-self: center;
+     
 }
 
 .hebergement {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    font-size: 20px;
-    
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /* css page transport */
@@ -391,7 +384,7 @@ footer {
 position:relative; width:1040px; height:auto;
 }
 
-
+/* 
 .formulaire{display:inline-block;}
 
 
@@ -403,4 +396,4 @@ border-radius: 20%;
 .logo-search {
     display: block;
 
-}
+} */
