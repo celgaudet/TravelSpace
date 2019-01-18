@@ -112,3 +112,14 @@ a:hover {
     height: 550px; 
     width: 700px;
 }
+
+/* css page hebergement */
+
+.logementlune, .logementmars {
+    height: 250px; 
+    width: 400px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
