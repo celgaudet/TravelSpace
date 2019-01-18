@@ -4,12 +4,7 @@
     src: url(earthorbiter.ttf);
     }
 
-header {
-font-family: "earthorbiter";
-margin: 0;
-padding: 0;
-font-size: 16px;
-}
+
 
 body {
 background-color: white;
@@ -26,7 +21,7 @@ padding: 0;
 
 header {
     background-color: white;  
-    height: 60px;
+    /* height: 60px; */
     width: 100%;
     position: fixed;
     top: 0;
@@ -34,6 +29,10 @@ header {
     justify-content: center;
     align-items: center;
     z-index: 5;
+    font-family: "earthorbiter";
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
 
 #header {
@@ -174,7 +173,12 @@ nav {
         z-index: 999;
 }
 
-#logo {height: 80px; margin-left: 20px;}
+.logo {
+    height: 50px; margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .wrapper {
     padding: 50px 50px;
@@ -183,6 +187,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
         margin-top: 80px;
+        height: 50px;
 }
 
 
@@ -381,4 +386,21 @@ footer {
 
 }
 
-   
+#searchbar{
+    
+position:relative; width:1040px; height:auto;
+}
+
+
+.formulaire{display:inline-block;}
+
+
+.formulaire .bouton       
+{ background-image: url(images/searchbar_button.png);background-repeat: no-repeat;width: 35px;height: 25px;padding: 0; 
+border-radius: 20%;
+}
+
+.logo-search {
+    display: block;
+
+}
