@@ -24,6 +24,7 @@ header {
     height: 500px;
     object-fit: cover;
     object-position: 0 -50px;
+    
 }
 /* 
 .headertext {
@@ -31,6 +32,11 @@ header {
     height: auto;
     width: auto;
 } */
+
+#headertext {
+    background-color: #e0e0e0;
+    height: 50px;
+}
 
 
 a.headertext {
